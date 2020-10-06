@@ -1,18 +1,41 @@
 * {
-    outline: 1px solid red !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+    border: 5px solid #FF00FF;
+}
+
+.title h1 {
+    background-color: #3F51B5;
+    color: white;
+    margin: 10px 15px 0px 25px;
+    padding-top: 25px;
+}
+
+.container div {
+    margin: 15px 15px 15px 15px;
+}
+
+.container {
+    border: 5px solid #85200C;
 }
 
 .content {
     display: flex;
-
+    border: 5px solid #FF00FF;
 }
 
 .image {
     flex: 1;
+    border: 5px solid #00FF00;
 }
 
 .description {
     flex: 2;
+    border: 5px solid #00FF00;
+    font-family: sans-serif;
+    color: #D0D1DF;
 }
 
 img {

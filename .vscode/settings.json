@@ -1,0 +1,8 @@
+{
+    "editor.wordWrap": "on",
+    "[markdown]": {
+    
+        "editor.wordWrap": "bounded",
+        "editor.quickSuggestions": false
+    }
+}
