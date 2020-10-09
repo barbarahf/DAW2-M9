@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*GLobal*/
+img {
+    max-width: 100vw;
+}
+
+/*Fuentes*/
+@font-face {
+    font-family: "Main title";
+    src: url(../fonts/lato/Lato-Hairline.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Text;
+    src: url(../fonts/lato/Lato-Light.ttf) format("truetype");
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header hgroup {
+    text-align: right;
+}
+
+.logo {
+    flex: 1;
+}
+
+.title {
+    flex: 4;
+
+    text-align: right;
+    text-transform: uppercase;
+
+}
+
+.item {
+    text-align: center;
+}
+
+
+.title > h1 {
+    font-family: "Main title", sans-serif;
+    font-size: 2.5rem;
+    color: #bcbbbb;
+
+}
+
+.title > h3 {
+    font-size: small;
+}
+
+.item > h3 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #747704;
+}
+
+.title > h1 {
+    padding-top: 0.5rem;
+}
+
+.items-container h2 {
+    flex: 1 100%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #bcbbbb;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.items-container > .item > h2 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #747704;
+}
+
+.items-container > .item > a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: smaller;
+    color: #747704;
+}
+
+
+.container hr {
+    border: thin solid #bcbbbb;
+    margin-bottom: 1.5rem;
+}
+
+.container {
+    /*width: 800px;*/
+    margin: auto;
+    font-family: Text, sans-serif;
+    max-width: 800px;
+}
+
+.items-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+body {
+    padding: 1rem;
+}
+
+/*Movile style*/
+@media screen and (max-width: 400px) {
+    img {
+        max-width: 100%;
+    }
+
+    .items-container {
+        flex-direction: column;
+
+        justify-content: center;
+
+    }
+
+    .item {
+        width: 200px;
+        margin: auto;
+        padding-bottom: 1rem;
+
+    }
+
+    h2 {
+        text-align: center;
+        padding-left: 0;
+        font-size: 2rem;
+    }
+
+    .logo {
+        padding-top: 1.1rem;
+    }
+
+    header img {
+        max-height: 70px;
+    }
+
+}
