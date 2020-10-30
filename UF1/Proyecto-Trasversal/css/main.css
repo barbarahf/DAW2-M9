@@ -1,0 +1,41 @@
+/*Header section*/
+.main-header {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header .principal-nav ul:first-child {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+.main-header .principal-nav ul:first-child a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+.contact-button {
+    background-color: #73E66E;
+    border: none;
+    color: white;
+    padding: 0.8rem 2rem;
+}
+
+.find, .cart {
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+    outline: none;
+}
+
+.find {
+    background-image: url(../img/lupa.png);
+}
+.cart{
+    background-image: url(../img/images.png);
+}
