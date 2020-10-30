@@ -20,25 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82a0e180-0b92-4fba-9cfa-c7bab68c0cfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Proyecto-Trasversal/34-prelude.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proyecto2a/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proyecto2a/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proyecto2a/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Proyecto2b.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework Template 1.0/css/framework.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework Template 1.0/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework Template 1.0/example_frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework Template 1.0/img/img01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework Template 1.0/img/item1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework Template 1.0/img/item2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework Template 1.0/img/item3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework Template 1.0/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework Template 1.0/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework Template 1.0/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Framework Template 1.0/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +72,7 @@
       <updated>1603733241541</updated>
       <workItem from="1603733242790" duration="599000" />
       <workItem from="1603823498247" duration="31000" />
-      <workItem from="1604057674485" duration="14044000" />
+      <workItem from="1604057674485" duration="14159000" />
     </task>
     <servers />
   </component>
