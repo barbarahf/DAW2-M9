@@ -19,57 +19,41 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82a0e180-0b92-4fba-9cfa-c7bab68c0cfa" name="Default Changelist" comment="" />
+    <list default="true" id="adf95f26-c93c-4553-b45b-0b935fca5007" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Proyecto-Trasversal/fonts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto-Trasversal/style/framework.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto-Trasversal/style/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto2b/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1jQPFuSIzwcT9ttIop2kCYjrKCi" />
+  <component name="ProjectId" id="1jbny9DCS5bSVotxUbAFmkJ2FzR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Proyecto-Trasversal" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RunManager">
-    <configuration name="example_frame.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Proyecto2b/Framework Template 1.0/example_frame.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.example_frame.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="82a0e180-0b92-4fba-9cfa-c7bab68c0cfa" name="Default Changelist" comment="" />
-      <created>1603733241541</created>
+      <changelist id="adf95f26-c93c-4553-b45b-0b935fca5007" name="Default Changelist" comment="" />
+      <created>1604081911118</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603733241541</updated>
-      <workItem from="1603733242790" duration="599000" />
-      <workItem from="1603823498247" duration="31000" />
-      <workItem from="1604057674485" duration="14805000" />
+      <updated>1604081911118</updated>
+      <workItem from="1604081912222" duration="6000" />
     </task>
     <servers />
   </component>
@@ -86,13 +70,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="765" y="1212" width="426" height="493" key="FileChooserDialogImpl" timestamp="1604080329198">
-      <screen x="300" y="1080" width="1366" height="768" />
-    </state>
-    <state x="465" y="154" width="426" height="493" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603823527527" />
-    <state x="765" y="1212" width="426" height="493" key="FileChooserDialogImpl/300.1080.1366.768/0.0.1920.1080@300.1080.1366.768" timestamp="1604080329198" />
   </component>
 </project>

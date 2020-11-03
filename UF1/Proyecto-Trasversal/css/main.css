@@ -1,4 +1,9 @@
 /*Header section*/
+* {
+    /*padding: 0.5rem;*/
+    box-sizing: border-box;
+}
+
 .main-header {
     font-family: 'Roboto', sans-serif;
     color: gray;
@@ -8,6 +13,7 @@
 .principal-nav {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .main-header .principal-nav ul {
@@ -15,6 +21,9 @@
     flex-direction: row;
     list-style-type: none;
     align-items: center;
+    justify-content: space-around;
+    flex-basis: 100%;
+
 
 }
 
@@ -32,13 +41,14 @@
     padding: 0.8rem 2rem;
 }
 
-.find, .cart, .face, .twitter, .instagram, .internet {
+.social-media li a, .main-links li button {
     background-size: contain;
     background-repeat: no-repeat;
     border: none;
     cursor: pointer;
     vertical-align: middle;
     outline: none;
+
 }
 
 .find {
