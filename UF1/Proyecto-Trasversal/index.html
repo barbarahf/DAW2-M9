@@ -10,25 +10,27 @@
     <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap"
           rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c9f4072d9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<main class="main-container">
+<!--<main class="main-container">-->
+<main>
     <header class="main-header">
         <nav class="principal-nav">
-            <div>
-                <address class="col-5">
+            <div id="items_div">
+                <address>
                     <ul>
                         <li><a href="">(311) 555-2368</a></li>
                         <li><a href="">Help center</a></li>
                         <li><a href="">Docs</a></li>
                     </ul>
                 </address>
-                <aside class="col-5">
+                <aside>
                     <ul class="social-media">
-                        <li><a href="" class="face"> </a></li>
-                        <li><a href="" class="twitter"> </a></li>
-                        <li><a href="" class="instagram"> </a></li>
-                        <li><a href="" class="internet"></a></li>
+                        <li><a href=""> <i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""> </a><i class="fab fa-twitter"></i></li>
+                        <li><a href=""> <i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fas fa-globe"></i></a></li>
                     </ul>
                 </aside>
             </div>
@@ -48,15 +50,75 @@
                     <button type="button" class="cart"></button>
                 </li>
                 <li>
-                    <button type="button" class="find"></button>
+                    <!--    <button type="button" class="find"></button>-->
+                    <aside class="search-button">
+                        <div class="container">
+                            <span class="lupa">
+                                <i class="fa fa-search"></i>
+                            </span>
+                            <input type="search" id="search" placeholder="¿Qué quieres buscar?"/>
+                        </div>
+                    </aside>
                 </li>
                 <li>
                     <button type="button" class="contact-button">Contact Us</button>
                 </li>
             </ul>
-
         </nav>
     </header>
+    <section class="vertical">
+        <div class="text_section col-6">
+            <h2>Driving meaningful change
+                <span class="underline_gradient">through</span> technologu & <span class="underline_gradient">design</span>
+            </h2>
+            <p>Crafting delightful experiences through meticulous attention to detail. We help our clients reach thir
+                full
+                potential through serving as the management team</p>
+            <ul class="latest_and_watch">
+                <li>
+                    <a href="">Latest Projects</a>
+                </li>
+                <li>
+                    <a href="">Watch Reel</a>
+                    <i class="fas fa-arrow-right"></i>
+                </li>
+            </ul>
+        </div>
+        <figure><img src="img/girl_firtsblock.png" alt="girl" class="responsive_img"></figure>
+
+    </section>
+    <section class="vertical">
+        <div class="card">
+            <figure><i class="far fa-eye"></i></figure>
+            <h3>UX Desing</h3>
+            <p>Crafting delightful experiences through meticulous attention to detail. We help our clients reach
+                thir</p>
+            <button type="button" class="arrow_buton"><i class="fas fa-arrow-right"></i></button>
+        </div>
+
+        <div class="card">
+            <figure><i class="fas fa-desktop"></i></figure>
+            <h3>Development</h3>
+            <p>Crafting delightful experiences through meticulous attention to detail. We help our clients reach
+                thir</p>
+            <button type="button" class="arrow_buton"><i class="fas fa-arrow-right"></i></button>
+        </div>
+
+        <div class="card">
+            <figure><i class="fas fa-bolt"></i></figure>
+            <h3>UX Branding</h3>
+            <p>Crafting delightful experiences through meticulous attention to detail. We help our clients reach
+                thir</p>
+            <button type="button" class="arrow_buton"><i class="fas fa-arrow-right"></i></button>
+        </div>
+
+        <div class="text_section col-6">
+            <h2>Digital creators<span>& Strategists</span></h2>
+            <p>Crafting delightful experiences through meticulous attention to detail. We help our clients reach thir
+                full potential through serving as the management team</p>
+        </div>
+    </section>
+
 </main>
 </body>
 </html>
