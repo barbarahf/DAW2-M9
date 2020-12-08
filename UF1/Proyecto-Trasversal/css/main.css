@@ -186,6 +186,11 @@ h2 > .underline_gradient {
     border-bottom: 0.7vw solid;
     border-image-source: linear-gradient(90deg, rgba(176, 204, 255, 1) 0%, rgba(229, 201, 255, 1) 53%, rgba(255, 255, 255, 1) 96%);
     border-image-slice: 1;
+    display: inline-block;
+    /*width: 100px; ancho de la linea*/
+    height: 2.3vw;
+    /*line-height: 18px;*/
+
 }
 
 .text_section {
@@ -203,7 +208,7 @@ h2 > .underline_gradient {
     justify-content: center
 }
 
-section {
+section:nth-child(2) {
     background-color: #F8F1FB;
 }
 
@@ -232,11 +237,14 @@ section {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width: 35%;
+    flex-basis: 28%;
+
     border-radius: 18px;
-    max-width: 250px;
+    /*max-width: 250px;*/
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    margin: 35px;
+    min-height: 17vw;
 }
 
 .card > button {
@@ -246,10 +254,7 @@ section {
 }
 
 /*Add space beetween elements*/
-.vertical:nth-child(3) {
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+
 
 .card > button {
     border: none;
@@ -258,6 +263,10 @@ section {
 .card > button > * {
     color: #73E66E;
 
+}
+
+.card_section card:nth-child(2) {
+    background-color: red;
 }
 
 /*Green circle*/
@@ -274,4 +283,37 @@ section {
 .card > figure > * {
     color: #FFFFFF;
     height: 0;
+}
+
+.card_section {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-between;*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+}
+
+.patreon {
+    align-items: center;
+}
+
+.vertical:nth-child(3) {
+    position: relative;
+}
+
+.vertical:nth-child(3)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/border_desing.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+    z-index: -1;
+
 }

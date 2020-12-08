@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .imageWrapper {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            height: 60px;
+        }
+
+        .image {
+            width: 50px;
+            height: 50px;
+            border: 5px solid red;
+            border-radius: 50%;
+        }
+
+        .info {
+            font-size: 80%;
+            display: inline-block;
+            vertical-align: middle;
+            width: 100px;
+            height: 36px;
+            line-height: 18px;
+            padding: 5px 20px 5px 25px;
+            border-color: blue;
+            border-style: solid;
+            border-width: 5px 5px 5px 0;
+            margin-left: -20px;
+        }
+
+        .maintext {
+            width: 100px;
+            font-weight: 700;
+        }
+
+        .subtext {
+            width: 100px;
+        }
+
+        .ellipsis {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+<div class="outer">
+    <div class="imageWrapper">
+        <img src="http://lorempixel.com/output/technics-q-g-100-100-9.jpg" class="image">
+    </div><!-- remove the white space of inline-block
+  -->
+    <div class="info">
+        <div class="maintext ellipsis">Title here!</div>
+        <div class="subtext ellipsis">Subtitle here!</div>
+    </div>
+</div>
+</body>
+</html>
