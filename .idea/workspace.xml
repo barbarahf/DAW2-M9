@@ -22,27 +22,6 @@
     <list default="true" id="106c53a3-802f-4d6c-b3c1-e405a4d4514c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/.idea/UF1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/Proyecto-Trasversal/.idea/Proyecto-Trasversal.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/Proyecto-Trasversal/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/Proyecto-Trasversal/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/Proyecto-Trasversal/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/Proyecto-Trasversal/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/Proyecto1/.idea/Proyecto1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/Proyecto1/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/Proyecto1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/Proyecto1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/Proyecto1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/Proyecto2a/.idea/Proyecto2a.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/Proyecto2a/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/Proyecto2a/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/Proyecto2a/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1/Proyecto2a/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +59,7 @@
       <workItem from="1602251987891" duration="5978000" />
       <workItem from="1602830564382" duration="15000" />
       <workItem from="1608294744142" duration="184000" />
+      <workItem from="1608295220815" duration="101000" />
     </task>
     <servers />
   </component>
