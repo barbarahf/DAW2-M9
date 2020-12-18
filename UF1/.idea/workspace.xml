@@ -20,27 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e039b8e-1d68-4405-a189-231499fa2b48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto-Trasversal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto-Trasversal/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/css/style01.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/fonts/lato/Lato-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/fonts/lato/Lato-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/fonts/lato/Lato-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/fonts/lato/Lato-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/fonts/lato/Lato-Hairline.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/fonts/lato/Lato-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/fonts/lato/Lato-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/fonts/lato/Lato-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/fonts/lato/Lato-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/fonts/lato/Lato-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/fonts/lato/Lato-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/fonts/lato/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/img/img01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/img/item1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/img/item2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/img/item3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto2a/template 1.0/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto-Trasversal/.idea/Proyecto-Trasversal.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto-Trasversal/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto-Trasversal/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto-Trasversal/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto-Trasversal/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto1/.idea/Proyecto1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto1/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto2a/.idea/Proyecto2a.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto2a/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto2a/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto2a/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto2a/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +53,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -71,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608294431218</updated>
       <workItem from="1608294432611" duration="104000" />
+      <workItem from="1608294687774" duration="55000" />
     </task>
     <servers />
   </component>
@@ -87,5 +82,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="779" y="1234" width="426" height="493" key="FileChooserDialogImpl" timestamp="1608294740573">
+      <screen x="314" y="1080" width="1366" height="768" />
+    </state>
+    <state x="779" y="1234" width="426" height="493" key="FileChooserDialogImpl/314.1080.1366.768/0.0.1920.1080@314.1080.1366.768" timestamp="1608294740573" />
   </component>
 </project>
