@@ -1,0 +1,9 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+div > h3, a{
+    color: #747704;
+    font-weight: bolder;
+}
