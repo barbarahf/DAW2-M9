@@ -33,9 +33,3 @@
 [class*="col"] + [class*="col"] { /*No añade al primero, solo al hijo consecutivo que contenga "col**/
     margin-left: 0.5rem;
 }
-
-
-/*Responsive images*/
-/*img {*/
-/*    max-width: 100%;*/
-/*}*/

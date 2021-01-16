@@ -7,3 +7,6 @@ div > h3, a{
     color: #747704;
     font-weight: bolder;
 }
+.container{
+    max-width: 960px;
+}
