@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/framework.css">
+    <!--   <link rel="stylesheet" href="./css/framework.css">-->
     <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap"
           rel="stylesheet">
@@ -68,9 +68,9 @@
         </nav>
     </header>
     <section class="vertical">
-        <div class="text_section col-6">
+        <div class="text_section">
             <h2>Driving meaningful change
-                <span class="underline_gradient">through</span> technologu & <span
+                <span class="underline_gradient">through</span> technology & <span
                         class="underline_gradient">design</span>
             </h2>
             <p>Crafting delightful experiences through meticulous attention to detail. We help our clients reach thir
@@ -91,22 +91,22 @@
         <figure><img src="img/girl_firtsblock.png" alt="girl" class="responsive_img"></figure>
 
     </section>
-    <section class="vertical">
-        <div class="card_section col-6">
+    <section class="vertical digital-creators">
+        <div class="card_section elements_in_circle">
             <div class="card">
                 <figure class="round-picture"><i class="far fa-eye"></i></figure>
                 <h3>UX Desing</h3>
                 <p>Crafting delightful experiences through meticulous attention to detail. We help our clients reach
                     thir</p>
-                <button type="button" class="arrow_buton"><i class="fas fa-arrow-right"></i></button>
+                <a type="button" class="arrow_buton"><i class="fas fa-arrow-right"></i></a>
             </div>
 
-            <div class="card">
+            <div class="card image-before">
                 <figure class="round-picture"><i class="fas fa-desktop"></i></figure>
                 <h3>Development</h3>
                 <p>Crafting delightful experiences through meticulous attention to detail. We help our clients reach
                     thir</p>
-                <button type="button" class="arrow_buton"><i class="fas fa-arrow-right"></i></button>
+                <a class="arrow_buton"><i class="fas fa-arrow-right"></i></a>
             </div>
 
             <div class="card">
@@ -114,10 +114,11 @@
                 <h3>UX Branding</h3>
                 <p>Crafting delightful experiences through meticulous attention to detail. We help our clients reach
                     thir</p>
-                <button type="button" class="arrow_buton"><i class="fas fa-arrow-right"></i></button>
+                <a class="arrow_buton"><i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
-        <div class="text_section col-6">
+        <div class="text_section ">
+            <p>Cutting-edge brand experiences for companies</p>
             <h2>Digital creators<br><span>& Strategists</span></h2>
             <p>Crafting delightful experiences through meticulous attention to detail. We help our clients reach thir
                 full potential through serving as the management team</p>
@@ -138,16 +139,18 @@
         </div>
     </section>
     <section class="vertical ">
-        <div class="creative-studio col-6">
-            <p>WE ARE A FUTURE-ORIENTED HYBRID AGENCY</p>
-            <h2>Creative studio<span>& Technology</span></h2>
+        <div class="creative-studio ">
             <div>
-                <p>20+</p>
+                <p>WE ARE A FUTURE-ORIENTED HYBRID AGENCY</p>
+                <h2>Creative studio<br><span>& Technology</span></h2>
+            </div>
+            <div>
+                <p>20<span>+</span></p>
                 <h4>Launched startups</h4>
                 <p>We specialise in designing and developing</p>
             </div>
             <div>
-                <p>1.1K</p>
+                <p>1.1<span>K</span></p>
                 <h4>Completed Projects</h4>
                 <p>We specialise in designing and developing</p>
             </div>
@@ -157,19 +160,50 @@
         </video>
     </section>
     <section class="crafting-delightful-section">
-        <div><h3>Crafting delightful experiences through meticulous attention</h3>
+        <div class="text_section"><h3>Crafting delightful experiences through meticulous attention</h3>
             <p>Our ethos is to constantly challenge the status quo and shape industry-redefining solutions in a
                 tight-knit
-                collaboration with our costumers</p></div>
-        <div>
-            <figure>
-                <img src="">
-            </figure>
-
+                collaboration with our costumers</p>
         </div>
-
+        <figure>
+            <img src="img/crafting_deligthful_section.png">
+        </figure>
+        <div id="display-content-js">
+            <!--Hera javascript events-->
+            <ul class="vertical">
+                <li><a href=""> Strategy & Branding</a></li>
+                <li><a href=""> Digital & development</a></li>
+                <li><a href=""> Studio & Stories</a></li>
+            </ul>
+            <!--Display none-->
+            <div>
+                <h4>Creating strong imagery</h4>
+                <p>Everything begins with an idea. We pair vision with insight to sharpen brands' cores into
+                    crystal-clear strategies. We specialise in creative direction for ambitious brands. Our
+                    collaborative approach builds brands worth talking about.</p>
+                <p>We make things happen. We use technology to create services and experiences that are not only
+                    beautiful usable but also boundary-braking and fruitful</p>
+                <button value="">Learn More</button>
+            </div>
+        </div>
     </section>
 
+    <section class="we-specialize-in">
+        <div class="text-section-decoration">
+            <p class="">we are a creative founded in nyc</p>
+            <h2>We specialize in<br><span>building brands</span></h2>
+            <p class="contain-text">We treat branding desing & marketing ad fundamentally linked & create brand
+                experiences that feel
+                familiar yet new. They have to resonate</p>
+            <button>Our Work</button>
+        </div>
+        <div class="group-circles">
+            <div><h4 class="costumer"><span>120</span><br>Customers</h4></div>
+            <div><h4><span class="project">2k</span><br>Projects</h4></div>
+            <div><h4><span class="workers">40</span><br>Wokers</h4></div>
+            <div><h4><span class="offices">8+</span><br>Offices</h4></div>
+        </div>
+    </section>
 
     <!--Footer section-->
     <footer class="main-footer">
@@ -214,7 +248,6 @@
             <ul>
                 <li> ®2019 Prelude by Viwarx-Co All Rigths Reserved</li>
                 <li> Terms of use | Privacy policy</li>
-
             </ul>
         </div>
     </footer>
