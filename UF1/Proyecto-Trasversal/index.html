@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap"
           rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/2c9f4072d9.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -52,19 +53,22 @@
                 </li>
                 <li>
                     <!--    <button type="button" class="find"></button>-->
-                    <aside class="search-button">
+                    <div class="search-button">
                         <div class="container">
                             <span class="lupa">
                                 <i class="fa fa-search"></i>
                             </span>
                             <input type="search" id="search" placeholder="¿Qué quieres buscar?"/>
                         </div>
-                    </aside>
+                    </div>
                 </li>
                 <li>
                     <button type="button" class="contact-button">Contact Us</button>
                 </li>
             </ul>
+            <a href="javascript:void(0);" class="menu_icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </nav>
     </header>
     <section class="vertical">
@@ -138,7 +142,7 @@
             <figure><img alt="" src="./img/ideabox.png"></figure>
         </div>
     </section>
-    <section class="vertical ">
+    <section class="vertical creative">
         <div class="creative-studio ">
             <div>
                 <p>WE ARE A FUTURE-ORIENTED HYBRID AGENCY</p>
@@ -197,11 +201,13 @@
                 familiar yet new. They have to resonate</p>
             <button>Our Work</button>
         </div>
+
         <div class="group-circles">
             <div><h4 class="costumer"><span>120</span><br>Customers</h4></div>
             <div><h4><span class="project">2k</span><br>Projects</h4></div>
             <div><h4><span class="workers">40</span><br>Wokers</h4></div>
             <div><h4><span class="offices">8+</span><br>Offices</h4></div>
+
         </div>
     </section>
 
@@ -253,4 +259,17 @@
     </footer>
 </main>
 </body>
+<script>
+    function myFunction() {
+        let elements = document.getElementsByClassName("main-links");
+        for (let i = 0; i < elements.length; i++) {
+            if (elements[i].style.display === 'block') {
+                elements[i].style.setProperty('display', 'none', 'important');
+            } else {
+                elements[i].style.setProperty('display', 'block', 'important');
+
+            }
+        }
+    }
+</script>
 </html>
