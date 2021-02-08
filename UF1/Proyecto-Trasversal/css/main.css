@@ -10,6 +10,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+section * {
+    max-width: 100%;
+}
+
 .menu_icon {
     display: none;
 }
@@ -21,6 +25,7 @@ section {
 
 header * {
     padding: 0.4rem;
+    max-width: 100%;
 }
 
 .main-header {
@@ -154,12 +159,14 @@ header * {
 #search:focus,
 #search:active {
     outline: none;
-    width: 270px;
-    padding-right: 20px;
+    max-width: 100%;
+    font-size: 15px;
 }
 
 .container:hover #search {
-    width: 17vw;
+    max-width: 100% !important;
+    width: 37vh;
+
 }
 
 .container:hover .lupa {
@@ -571,7 +578,7 @@ section[class*='crafting-delightful-section'] {
     flex-direction: column;
     max-width: 160px;
     background-color: white;
-
+    text-align: center;
 }
 
 .group-circles div:nth-child(1), .group-circles div:nth-child(4) {
@@ -582,9 +589,6 @@ section[class*='crafting-delightful-section'] {
     position: relative;
 }
 
-.group-circles > div h4 {
-    z-index: 2;
-}
 
 /*Circle element transparent, affter*/
 .group-circles::before {
@@ -601,11 +605,66 @@ section[class*='crafting-delightful-section'] {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    z-index: -999;
 }
 
 .we-specialize-in .group-circles .costumer span {
     color: #9D77F4;
 }
+
+.we-specialize-in .group-circles .costumer, .we-specialize-in .group-circles .project, .we-specialize-in .group-circles .offices {
+    position: relative;
+}
+
+.we-specialize-in .group-circles .offices::before {
+    content: "";
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    top: 8px;
+    bottom: 0;
+    right: 0;
+    left: 226px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/workers_img_03.PNG);
+    z-index: -1;
+}
+
+
+.we-specialize-in .group-circles .costumer::before {
+    content: "";
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    top: -109px;
+    bottom: 0;
+    right: 0;
+    left: 226px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/costumers_img01.PNG);
+    z-index: -1;
+}
+
+.we-specialize-in .group-circles .project::before {
+    content: "";
+    position: absolute;
+    height: 380px;
+    width: 180px;
+    top: -155px;
+    bottom: 0;
+    right: 0;
+    left: -78px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/offices_img_02.PNG);
+    z-index: -1;
+}
+
 
 /*Circle colors*/
 .we-specialize-in .group-circles .project {
@@ -656,6 +715,10 @@ section[class*='crafting-delightful-section'] {
     background-color: #9F5AB2;
     color: white;
     font-weight: 500;
+}
+
+/*Group of boxes, we build brands section*/
+.we-build-brands-boxes {
 }
 
 /*Footer section*/
@@ -852,5 +915,9 @@ footer * {
 
     footer > div:nth-child(1) .vertical {
         flex-direction: row;
+    }
+
+    .we-specialize-in .group-circles .project::before, .we-specialize-in .group-circles .costumer::before, .we-specialize-in .group-circles .offices::before {
+        display: none
     }
 }
