@@ -719,6 +719,66 @@ section[class*='crafting-delightful-section'] {
 
 /*Group of boxes, we build brands section*/
 .we-build-brands-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.we-build-brands-boxes > div {
+    flex-basis: 44%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.we-build-brands-boxes > div img {
+    border-radius: 5px;
+}
+
+.we-build-brands-boxes .text-section-decoration {
+    flex-basis: 100%;
+    align-items: flex-end;
+
+}
+.we-build-brands-boxes .text-section-decoration >div{
+    min-width: 50%;
+}
+
+.we-build-brands-boxes > div > h3 {
+    text-align: center;
+}
+
+.we-build-brands-boxes .text-section-decoration div > p {
+    color: #9D77F4
+}
+
+/*figcaption*/
+.we-build-brands-boxes > div figcaption {
+    font-weight: 200;
+    position: relative;
+    margin-left: 95px;
+    margin-top: 15px;
+
+}
+
+.we-build-brands-boxes > div figcaption::before {
+    font-weight: 200;
+    content: "";
+    position: absolute;
+    border-bottom: solid 2px #73E66E;
+    left: -85px;
+    right: 0;
+    top: 0;
+    bottom: 8px;
+    width: 55px;
+
+}
+
+.block-margin {
+    margin-bottom: -200px;
 }
 
 /*Footer section*/
@@ -920,4 +980,17 @@ footer * {
     .we-specialize-in .group-circles .project::before, .we-specialize-in .group-circles .costumer::before, .we-specialize-in .group-circles .offices::before {
         display: none
     }
+
+    .we-build-brands-boxes > div {
+        flex-basis: 100%;
+    }
+
+    .block-margin {
+        margin-bottom: 0;
+    }.we-build-brands-boxes .text-section-decoration {
+
+         align-items: flex-start;
+
+     }
+
 }
