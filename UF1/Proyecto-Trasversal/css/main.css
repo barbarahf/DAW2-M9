@@ -630,23 +630,25 @@ section[class*='crafting-delightful-section'] {
     background-size: contain;
     background-image: url(../img/workers_img_03.PNG);
     z-index: -1;
+    max-width: 100%;
 }
 
 
 .we-specialize-in .group-circles .costumer::before {
     content: "";
     position: absolute;
-    height: 220px;
-    width: 220px;
+    height: 20vw;
+    width: 20vw;
     top: -109px;
     bottom: 0;
     right: 0;
-    left: 226px;
+    left: 20vw;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-image: url(../img/costumers_img01.PNG);
     z-index: -1;
+    max-width: 100%;
 }
 
 .we-specialize-in .group-circles .project::before {
@@ -663,6 +665,7 @@ section[class*='crafting-delightful-section'] {
     background-size: contain;
     background-image: url(../img/offices_img_02.PNG);
     z-index: -1;
+    max-width: 100%;
 }
 
 
@@ -743,7 +746,8 @@ section[class*='crafting-delightful-section'] {
     align-items: flex-end;
 
 }
-.we-build-brands-boxes .text-section-decoration >div{
+
+.we-build-brands-boxes .text-section-decoration > div {
     min-width: 50%;
 }
 
@@ -781,6 +785,66 @@ section[class*='crafting-delightful-section'] {
     margin-bottom: -200px;
 }
 
+/*Get intouch section*/
+.get-in-touch {
+    position: relative;
+    color: white;
+    background-image: url("../img/walpaper-work-place.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10vw;
+    padding: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.get-in-touch h4 {
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+.get-in-touch * {
+    z-index: 2;
+    padding: 0.5rem;
+}
+
+.get-in-touch h4 > span {
+    font-weight: bold;
+}
+
+.get-in-touch::before {
+    content: "";
+    background-color: rgba(102, 51, 153, 0.7);
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+/*::before {
+    content: "";
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    top: 8px;
+    bottom: 0;
+    right: 0;
+    left: 226px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/workers_img_03.PNG);
+    z-index: -1;
+    max-width: 100%;
+}*/
 /*Footer section*/
 footer {
     display: flex;
@@ -987,10 +1051,12 @@ footer * {
 
     .block-margin {
         margin-bottom: 0;
-    }.we-build-brands-boxes .text-section-decoration {
+    }
 
-         align-items: flex-start;
+    .we-build-brands-boxes .text-section-decoration {
 
-     }
+        align-items: flex-start;
+
+    }
 
 }
