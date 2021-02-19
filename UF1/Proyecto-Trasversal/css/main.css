@@ -9,7 +9,9 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-
+.logo img{
+    max-width: 150px;
+}
 section * {
     max-width: 100%;
 }
