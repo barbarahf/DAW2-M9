@@ -459,6 +459,7 @@ section:nth-child(2) {
 
 video {
     border-radius: 20px;
+
 }
 
 
@@ -972,6 +973,10 @@ footer .rigths ul {
 
 footer * {
     padding: 0.5rem;
+}
+video {
+
+    max-width: 600px;
 }
 
 /******************************/
