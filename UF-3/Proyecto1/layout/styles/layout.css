@@ -33,7 +33,7 @@ File: Layout CSS
 .clear .active{
     color: #FFFFFF !important;
 }
-select{
+header form > *{
     color: black;
 }
 /* Header
