@@ -363,7 +363,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 #footer input, #footer button{border-color:transparent;}
 #footer input{color:#FFFFFF; background-color:#012B50;}
 #footer input:focus{border-color:#003399;}
-#footer button{color:#FFFFFF; background-color:#003399;}
+#footer button{color:#FFFFFF; background-color:red;}
 
 
 /* Navigation */
