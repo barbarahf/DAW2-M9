@@ -279,16 +279,16 @@ td{border-width:0 1px;}
 
 /* Add rounded corners to specific elements
 --------------------------------------------------------------------------------------------------------------- */
-.btn, 
-#header form label::before, 
-#header form label select, 
-.pagination a, 
-.pagination strong, 
-#footer input, 
+.btn,
+#header form label::before,
+#header form label select,
+.pagination a,
+.pagination strong,
+#footer input,
 #footer button{border-radius:10px;}
 
-#introblocks article i, 
-.faico a, 
+#introblocks article i,
+.faico a,
 #backtotop{border-radius:50%;}
 
 
@@ -363,7 +363,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 #footer input, #footer button{border-color:transparent;}
 #footer input{color:#FFFFFF; background-color:#012B50;}
 #footer input:focus{border-color:#003399;}
-#footer button{color:#FFFFFF; background-color:red;}
+#footer button{color:black; background-color:#FFFFFF;}
 
 
 /* Navigation */

@@ -14,6 +14,9 @@ footer a {
  .clients{
     background: #FFFFFF;
 }
+.client{
+     background-color: #FFFFFF !important;
+ }
 
 html{overflow-y:scroll; overflow-x:hidden;}
 html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
