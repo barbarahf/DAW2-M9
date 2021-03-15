@@ -30,7 +30,12 @@ File: Layout CSS
 #topbar ul li:last-child{margin-right:0; padding-right:0; border-right:none;}
 #topbar i{line-height:normal;}
 
-
+.clear .active{
+    color: #FFFFFF !important;
+}
+select{
+    color: black;
+}
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
 #header{padding:50px 0;}
