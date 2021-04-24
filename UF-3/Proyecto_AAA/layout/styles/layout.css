@@ -1482,11 +1482,12 @@ a:hover {
 
 a:hover, a:active, a:focus {
     text-decoration: underline !important;
-
+ 
 }
 
 button:hover, button:active, button:focus, select:hover, select:active, select:focus {
     text-decoration: underline !important;
+
 
 }
 
@@ -1494,6 +1495,6 @@ form input {
     color: black;
 }
 
-footer {
+footer, #copyright * {
     color: white !important;
 }
