@@ -1493,3 +1493,7 @@ button:hover, button:active, button:focus, select:hover, select:active, select:f
 form input {
     color: black;
 }
+
+footer {
+    color: white !important;
+}
