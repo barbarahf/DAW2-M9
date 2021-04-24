@@ -3,12 +3,13 @@
 <head>
     <title>Bistup</title>
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body id="top">
 
-<div class="wrapper row0">
+<div class="wrapper row0" role="complementary" aria-label="top">
     <div id="topbar" class="hoc clear">
 
         <div class="fl_left">
@@ -30,8 +31,8 @@
     </div>
 </div>
 
-<div class="wrapper row1">
-    <header id="header" class="hoc clear">
+<div class="wrapper row1" id="header-container">
+    <header  class="hoc clear" role="headerinfo" aria-label="header-container">
 
         <div id="logo" class="one_quarter first">
             <h1><a href="index.html">Bistup</a></h1>
@@ -54,14 +55,15 @@
                     <option value="Spanish">Spanish</option>
                     <option value="Spanish">French</option>
                 </select>
+                <button>Change language</button>
             </form>
         </div>
 
     </header>
 </div>
 
-<div class="wrapper row2">
-    <nav id="mainav" class="hoc clear">
+<div class="wrapper row2" id="navcontent">
+    <nav id="mainav" class="hoc clear" role="navigation" aria-label="navcontent">
 
         <ul class="clear">
             <li class="active"><a href="index.html">Home</a></li>
@@ -99,7 +101,7 @@
 
 <div class="wrapper bgded overlay" style="background-image:url('images/car-wallpaper.jpeg');">
     <div id="pageintro" class="hoc clear">
-        <article>
+        <article role="complementary" aria-labelledby="pageintro">
             <hgroup>
                 <h2>Amet nunc et accumsan blandit</h2>
                 <h3 class="heading"> Metus purus pharetra sit</h3>
@@ -121,23 +123,24 @@
                 <p>Vitae porta purus hendrerit mauris elementum nibh et placerat</p>
             </div>
             <ul class="nospace group">
-                <li class="one_third first">
-                    <article><a href="#"><em class="fas fa-allergies"></em></a>
+                <li class="one_third first" id="card01">
+                    <article role="complementary" aria-labelledby="card01"><a href="#"><em
+                            class="fas fa-allergies"></em></a>
                         <h6 class="heading">Pretium ante libero</h6>
                         <p>Cursus massa nec vehicula nunc neque et risus mauris rhoncus at justo ac lacinia maecenas [&hellip;]</p>
                         <footer><a class="btn" href="#">Read More</a></footer>
                     </article>
                 </li>
-                <li class="one_third">
-                    <article><a href="#"><em class="fas fa-cube"></em></a>
+                <li class="one_third" id="card02">
+                    <article role="complementary" aria-labelledby="card02"><a href="#"><em class="fas fa-cube"></em></a>
                         <h6 class="heading">Malesuada justo metus</h6>
                         <p>Sit amet ornare enim tempus sed nec consequat quam nam viverra purus ac justo iaculis
                             facilisis [&hellip;]</p>
                         <footer><a class="btn" href="#">Read More</a></footer>
                     </article>
                 </li>
-                <li class="one_third">
-                    <article><a href="#"><em class="fas fa-podcast"></em></a>
+                <li class="one_third" id="card03">
+                    <article role="complementary" aria-labelledby="card03"><a href="#"><em class="fas fa-podcast"></em></a>
                         <h6 class="heading">Vivamus tempor bibendum</h6>
                         <p>Dolor quis pretium metus vehicula id praesent ac dolor condimentum dapibus erat eget placerat
                             [&hellip;]</p>
@@ -149,14 +152,16 @@
 
         <hr class="btmspace-80">
 
-        <section>
+        <section id="pictures-section" role="banner">
             <div class="sectiontitle">
                 <h6 class="heading">Metus vestibulum fermentum</h6>
                 <p>Neque vel malesuada ultrices mi est vulputate ex sit amet</p>
             </div>
             <ul class="nospace group overview">
                 <li class="one_third">
-                    <figure><a href="#"><img src="images/aveja.jpeg" alt="Abeja en el campo"></a>
+                    <figure><a href="#"><img src="images/aveja.jpeg"
+                                             alt="insect in the field carrying food on a wooden floor"
+                                             title="insect in the field carrying food on a wooden floor"></a>
                         <figcaption>
                             <h6 class="heading">Posuere nisl lorem</h6>
                             <p>Nisi egestas nunc nibh urna molestie in gravida vel tincidunt.</p>
@@ -212,8 +217,8 @@
 </div>
 
 
-<div class="wrapper coloured">
-    <article class="hoc cta clear">
+<div class="wrapper coloured" id="coloure">
+    <article class="hoc cta clear" role="complementary" aria-labelledby="coloure">
 
         <h6 class="three_quarter first">Dis parturient montes nascetur ridiculus mus vivamus</h6>
         <footer class="one_quarter"><a class="btn" href="#">Porta risus purus</a></footer>
@@ -230,57 +235,63 @@
             <p>Molestie dolor blandit mauris porta quam erat ut laoreet velit</p>
         </div>
         <ul class="nospace group latest">
-            <li class="one_third first">
-                <article>
+            <li class="one_third first" id="car-background">
+                <article role="complementary" aria-labelledby="car-background">
                     <time datetime="2045-04-06T08:15+00:00"><em class="far fa-calendar-alt rgtspace-5"></em>
                         06<sup>th</sup> April 2045 @ 15:00pm
                     </time>
                     <div class="excerpt">
                         <h6 class="heading">ac finibus purus pulvinar quis suspendisse varius</h6>
                         <p>condimentum sem ac euismod tortor semper sit amet fusce pretium justo nec faucibus finibus
-                            libero odio porttitor magna et semper mi velit maximus nisi nullam accumsan massa [<a
-                                    href="#">&hellip;</a>]</p>
+                            libero odio porttitor magna et semper mi velit maximus nisi nullam accumsan massa
+                            [<strong><a
+                                    href="#">&hellip;</a></strong>]</p>
                         <ul class="meta">
                             <li><em class="fas fa-user rgtspace-5"></em> <a href="#">Admin</a></li>
-                            <li><em class="fas fa-tags rgtspace-5"></em> <a href="#">Tag 1</a>, <a href="#">Tag 2</a>
+                            <li><em class="fas fa-tags rgtspace-5"></em> <strong><a href="#">Tag 1</a></strong>,
+                                <strong><a href="#">Tag 2</a></strong>
                             </li>
                         </ul>
                         <footer><a class="btn" href="#">Read More</a></footer>
                     </div>
                 </article>
             </li>
-            <li class="one_third">
-                <article>
+            <li class="one_third" id="time-01">
+                <article role="complementary" aria-labelledby="time-01">
                     <time datetime="2045-04-05T08:14+00:00"><em class="far fa-calendar-alt rgtspace-5"></em>
                         05<sup>th</sup> April 2045 @ 14:00pm
                     </time>
                     <div class="excerpt">
                         <h6 class="heading">dapibus nulla a tristique risus vivamus ut metus</h6>
                         <p>turpis integer ac neque ac risus malesuada tincidunt vestibulum rutrum luctus lobortis ut
-                            tincidunt nulla at luctus aliquet mi magna sagittis sem id dapibus dui ex at augue etiam [<a
-                                    href="#">&hellip;</a>]</p>
+                            tincidunt nulla at luctus aliquet mi magna sagittis sem id dapibus dui ex at augue etiam
+                            [<strong><a
+                                    href="#">&hellip;</a></strong>]</p>
                         <ul class="meta">
                             <li><em class="fas fa-user rgtspace-5"></em> <a href="#">Admin</a></li>
-                            <li><em class="fas fa-tags rgtspace-5"></em> <a href="#">Tag 1</a>, <a href="#">Tag 2</a>
+                            <li><em class="fas fa-tags rgtspace-5"></em> <strong><a href="#">Tag 1</a></strong>,<strong>
+                                <a href="#">Tag 2</a></strong>
                             </li>
                         </ul>
                         <footer><a class="btn" href="#">Read More</a></footer>
                     </div>
                 </article>
             </li>
-            <li class="one_third">
-                <article>
+            <li class="one_third" id="card04">
+                <article role="complementary" aria-labelledby="card04">
                     <time datetime="2045-04-04T08:13+00:00"><em class="far fa-calendar-alt rgtspace-5"></em>
                         04<sup>th</sup> April 2045 @ 13:00pm
                     </time>
                     <div class="excerpt">
                         <h6 class="heading">lacinia et mauris sit amet bibendum vulputate sem</h6>
                         <p>duis vulputate at massa et sollicitudin erat eget suspendisse dignissim ultrices hendrerit
-                            donec aliquam risus a porta fermentum donec a mi pulvinar ex auctor eleifend eu finibus [<a
-                                    href="#">&hellip;</a>]</p>
+                            donec aliquam risus a porta fermentum donec a mi pulvinar ex auctor eleifend eu finibus
+                            [<strong><a
+                                    href="#">&hellip;</a></strong>]</p>
                         <ul class="meta">
                             <li><em class="fas fa-user rgtspace-5"></em> <a href="#">Admin</a></li>
-                            <li><em class="fas fa-tags rgtspace-5"></em> <a href="#">Tag 1</a>, <a href="#">Tag 2</a>
+                            <li><em class="fas fa-tags rgtspace-5"></em> <strong><a href="#">Tag 1</a></strong>,
+                                <strong><a href="#">Tag 2</a></strong>
                             </li>
                         </ul>
                         <footer><a class="btn" href="#">Read More</a></footer>
@@ -292,18 +303,20 @@
     </section>
 </div>
 
-<div class="wrapper row2 client">
+<article class="wrapper row2 client">
+
     <figure class="hoc container clear clients">
 
         <ul class="nospace group">
-            <li class="one_quarter first"><a href="#"><img src="images/patrocinador01.webp" alt="Patrocinador"></a></li>
-            <li class="one_quarter"><a href="#"><img src="images/patrocinador01.webp" alt="Patrocinador"></a></li>
-            <li class="one_quarter"><a href="#"><img src="images/patrocinador01.webp" alt="Patrocinador"></a></li>
-            <li class="one_quarter"><a href="#"><img src="images/patrocinador01.webp" alt="Patrocinador"></a></li>
+            <li class="one_quarter first"><a href="#"><img src="images/patrocinador01.png"
+                                                           alt="Airlane travel tour logo"></a></li>
+            <li class="one_quarter"><a href="#"><img src="images/patrocinador01.png" alt="Patrocinador"></a></li>
+            <li class="one_quarter"><a href="#"><img src="images/patrocinador01.png" alt="Patrocinador"></a></li>
+            <li class="one_quarter"><a href="#"><img src="images/patrocinador01.png" alt="Patrocinador"></a></li>
         </ul>
 
     </figure>
-</div>
+</article>
 
 
 <div class="wrapper row4">
@@ -371,15 +384,15 @@
 
 
 <div class="wrapper row5">
-    <div id="copyright" class="hoc clear">
+    <aside id="copyright" class="hoc clear">
         <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
         <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/"
                                            title="Free Website Templates">OS Templates</a></p>
-    </div>
+    </aside>
 </div>
 
 
-<a id="backtotop" href="#top"><em class="fas fa-chevron-up"></em></a>
+<div><a id="backtotop" href="#top"><em class="fas fa-chevron-up"></em></a></div>
 
 
 <script src="layout/scripts/jquery.min.js"></script>
